@@ -16,7 +16,7 @@ public class PageController
 		return mv;
 	}
 	@RequestMapping("/test")
-	public ModelAndView nextp(@RequestParam("greeting")String greeting)
+	public ModelAndView next(@RequestParam("greeting")String greeting)
 	{
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("greeting", greeting);
